@@ -2,6 +2,90 @@
 
 # Changelog
 
+### [Version 0.123.1](https://github.com/lobehub/lobe-chat/compare/v0.123.0...v0.123.1)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Improve auth control of plugin gateways, update dockerfile.
+
+#### 💄 Styles
+
+- **misc**: Add gpt-4-all feature flag.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Improve auth control of plugin gateways ([6354ad8](https://github.com/lobehub/lobe-chat/commit/6354ad8))
+- **misc**: Update dockerfile ([e66aed3](https://github.com/lobehub/lobe-chat/commit/e66aed3))
+
+#### Styles
+
+- **misc**: Add gpt-4-all feature flag ([360b36c](https://github.com/lobehub/lobe-chat/commit/360b36c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.123.0](https://github.com/lobehub/lobe-chat/compare/v0.122.9...v0.123.0)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Support Google / Zhipu / AWS Bedrock model providers.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support Google / Zhipu / AWS Bedrock model providers, closes [#1173](https://github.com/lobehub/lobe-chat/issues/1173) ([d5929f6](https://github.com/lobehub/lobe-chat/commit/d5929f6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.122.9](https://github.com/lobehub/lobe-chat/compare/v0.122.8...v0.122.9)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### 💄 Styles
+
+- **settings**: Improve LLM connection checker style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **settings**: Improve LLM connection checker style, closes [#1222](https://github.com/lobehub/lobe-chat/issues/1222) ([8c349a1](https://github.com/lobehub/lobe-chat/commit/8c349a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.122.8](https://github.com/lobehub/lobe-chat/compare/v0.122.7...v0.122.8)
 
 <sup>Released on **2024-02-03**</sup>
