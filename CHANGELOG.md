@@ -2,6 +2,114 @@
 
 # Changelog
 
+### [Version 0.126.3](https://github.com/lobehub/lobe-chat/compare/v0.126.2...v0.126.3)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix auth layout error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix auth layout error ([efd7d14](https://github.com/lobehub/lobe-chat/commit/efd7d14))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.126.2](https://github.com/lobehub/lobe-chat/compare/v0.126.1...v0.126.2)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix OAuth throws an error on Vercel deploy.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix OAuth throws an error on Vercel deploy, closes [#1278](https://github.com/lobehub/lobe-chat/issues/1278) [#1277](https://github.com/lobehub/lobe-chat/issues/1277) [#1274](https://github.com/lobehub/lobe-chat/issues/1274) ([81d2d76](https://github.com/lobehub/lobe-chat/commit/81d2d76))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.126.1](https://github.com/lobehub/lobe-chat/compare/v0.126.0...v0.126.1)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add basePath to support subdirectory.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add basePath to support subdirectory, closes [#1179](https://github.com/lobehub/lobe-chat/issues/1179) ([43e544a](https://github.com/lobehub/lobe-chat/commit/43e544a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.126.0](https://github.com/lobehub/lobe-chat/compare/v0.125.0...v0.126.0)
+
+<sup>Released on **2024-02-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Support umami analytics.
+
+#### 🐛 Bug Fixes
+
+- **misc**: The back button on the chat setting page can correctly return to the configured Agent chat page.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support umami analytics, closes [#1267](https://github.com/lobehub/lobe-chat/issues/1267) ([da7beba](https://github.com/lobehub/lobe-chat/commit/da7beba))
+
+#### What's fixed
+
+- **misc**: The back button on the chat setting page can correctly return to the configured Agent chat page, closes [#1272](https://github.com/lobehub/lobe-chat/issues/1272) ([4cc1ad5](https://github.com/lobehub/lobe-chat/commit/4cc1ad5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 0.125.0](https://github.com/lobehub/lobe-chat/compare/v0.124.3...v0.125.0)
 
 <sup>Released on **2024-02-08**</sup>

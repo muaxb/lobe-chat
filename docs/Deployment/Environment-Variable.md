@@ -7,6 +7,7 @@ LobeChat provides additional configuration options during deployment, which can 
 - [General Variables](#general-variables)
   - [`ACCESS_CODE`](#access_code)
   - [`ENABLE_OAUTH_SSO`](#enable_oauth_sso)
+  - [`NEXT_PUBLIC_BASE_PATH`](#next_public_base_path)
 - [Authentication Service Providers](#authentication-service-providers)
   - [Common Settings](#common-settings)
   - [Auth0](#auth0)
@@ -25,6 +26,7 @@ LobeChat provides additional configuration options during deployment, which can 
 - [Data Analytics](#data-analytics)
   - [Vercel Analytics](#vercel-analytics)
   - [Posthog Analytics](#posthog-analytics)
+  - [Umami Analytics](#umami-analytics)
 
 ## General Variables
 
@@ -40,7 +42,14 @@ LobeChat provides additional configuration options during deployment, which can 
 - Type: Optional
 - Description: Enable OAuth single sign-on (SSO) for LobeChat. Set to `1` to enable OAuth SSO. See [Authentication Service Providers](#authentication-service-providers) for more details.
 - Default: `-`
-- Example: `1` or `0`
+- Example: `1`
+
+### `NEXT_PUBLIC_BASE_PATH`
+
+- Type：Optional
+- Description：add `basePath` for LobeChat
+- Default: `-`
+- Example: `/test`
 
 ## Authentication Service Providers
 
@@ -55,7 +64,7 @@ LobeChat provides additional configuration options during deployment, which can 
 
 ### Auth0
 
-> !\[NOTE]
+> \[!NOTE]
 >
 > We only support the Auth0 authentication service provider at the moment. If you need to use other authentication service providers, you can submit a feature request or pull request.
 
@@ -98,7 +107,7 @@ LobeChat provides additional configuration options during deployment, which can 
 - Default: `https://api.openai.com/v1`
 - Example: `https://api.chatanywhere.cn` or `https://aihubmix.com/v1`
 
-> !\[NOTE]
+> \[!NOTE]
 >
 > Please check the request suffix of your proxy service provider. Some proxy service providers may add `/v1` to the request suffix, while others may not.
 > If you find that the AI returns an empty message during testing, try adding the `/v1` suffix and retrying.
@@ -286,8 +295,32 @@ The above example adds `search-engine` plugin settings, and sets the `SERPAPI_AP
 - Default: -
 - Example: `1`
 
+### Umami Analytics
+
+#### `NEXT_PUBLIC_ANALYTICS_UMAMI`
+
+- Type: Optional
+- Description: Environment variable to enable [Umami Analytics][umami-analytics-url]. Set to `1` to enable Umami Analytics.
+- Default: `-`
+- Example: `1`
+
+#### `NEXT_PUBLIC_UMAMI_SCRIPT_URL`
+
+- Type: Optional
+- Description: Set the url of the umami script. Default is the script address of Umami Cloud.
+- Default: `https://analytics.umami.is/script.js`
+- Example: `https://umami.your-site.com/script.js`
+
+#### `NEXT_PUBLIC_UMAMI_WEBSITE_ID`
+
+- Type: Required
+- Description: The website ID in umami
+- Default: `-`
+- Example: `E738D82A-EE9E-4806-A81F-0CA3CAE57F65`
+
 [auth0-client-page]: https://manage.auth0.com/dashboard
 [azure-api-verion-url]: https://docs.microsoft.com/zh-cn/azure/developer/javascript/api-reference/es-modules/azure-sdk/ai-translation/translationconfiguration?view=azure-node-latest#api-version
 [openai-api-page]: https://platform.openai.com/account/api-keys
 [posthog-analytics-url]: https://posthog.com
+[umami-analytics-url]: https://umami.is
 [vercel-analytics-url]: https://vercel.com/analytics
